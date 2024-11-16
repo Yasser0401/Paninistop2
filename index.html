@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Découvrez PaniniStop à Montréal : délicieux paninis, ambiance conviviale et service rapide.">
+    <title>PaniniStop - Montréal</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">PaniniStop</div>
+            <ul class="nav-links">
+                <li><a href="#accueil">Accueil</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#reservation">Réservation</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="accueil" class="hero">
+        <div class="hero-text">
+            <h1>Bienvenue chez PaniniStop</h1>
+            <p>Un goût unique, un moment inoubliable à Montréal.</p>
+            <a href="#menu" class="btn">Découvrez notre menu</a>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu">
+        <h2>Notre Menu</h2>
+        <div class="menu-container">
+            <div class="menu-item">
+                <img src="images/panini1.jpg" alt="Panini classique">
+                <h3>Panini Classique</h3>
+                <p>Fromage fondant, jambon et tomate fraîche.</p>
+                <span class="price">9,99 $</span>
+            </div>
+            <div class="menu-item">
+                <img src="images/panini2.jpg" alt="Panini végétarien">
+                <h3>Panini Végétarien</h3>
+                <p>Fromage, légumes grillés et pesto.</p>
+                <span class="price">8,99 $</span>
+            </div>
+            <div class="menu-item">
+                <img src="images/panini3.jpg" alt="Panini poulet">
+                <h3>Panini Poulet</h3>
+                <p>Émincé de poulet, sauce barbecue et fromage.</p>
+                <span class="price">10,99 $</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reservation Section -->
+    <section id="reservation">
+        <h2>Réservez votre table</h2>
+        <form class="reservation-form">
+            <label for="name">Nom :</label>
+            <input type="text" id="name" name="name" required>
+            <label for="phone">Téléphone :</label>
+            <input type="tel" id="phone" name="phone" required>
+            <label for="date">Date :</label>
+            <input type="date" id="date" name="date" required>
+            <label for="time">Heure :</label>
+            <input type="time" id="time" name="time" required>
+            <label for="guests">Nombre de personnes :</label>
+            <input type="number" id="guests" name="guests" min="1" required>
+            <button type="submit" class="btn">Réserver</button>
+        </form>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contactez-nous</h2>
+        <p>Adresse : 8099 Rue St-Hubert, Montréal, QC H2R 2P4</p>
+        <p>Téléphone : +1 514 273 8099</p>
+        <p>Email : contact@paninistop.com</p>
+        <div class="map">
+            <iframe src="https://www.google.com/maps/embed" frameborder="0" allowfullscreen></iframe>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 PaniniStop. Tous droits réservés.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
